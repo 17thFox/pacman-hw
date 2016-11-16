@@ -1,0 +1,26 @@
+.tile {
+  text-align: center;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.tile-ghost:before {
+  content: '👻';
+}
+
+.tile-food:before {
+  content: '🍒';
+}
+
+.tile-player:before {
+  content: '😺';
+}
+
+.tile-wall:before {
+  content: '⛰';
+}
+
+.tile-empty:before {
+  content: ' ';
+}
